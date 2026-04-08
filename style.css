@@ -98,3 +98,26 @@ body{
     background-position: center center;
     color: #D2B48C;
 }
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .div, .div2 {
+        width: 95%;
+    }
+    .section p, .section2 p {
+        width: 90%;
+        font-size: 14px;
+    }
+    .section h2, .section2 h2 {
+        font-size: 26px;
+    }
+    .header h1 {
+        font-size: 32px;
+    }
+    .header img {
+        width: 75px;
+        height: 75px;
+    }
+}
