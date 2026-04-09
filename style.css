@@ -4,7 +4,7 @@
    box-sizing: border-box;
    /* box-sizing hace que el padding no agrande los elementos */
 }
-/*Parte principal*/
+/*Parte superior*/
 .header{
     background: rgba(0, 0, 0, 0.6);
     text-align: center;
@@ -44,10 +44,6 @@
     height: 150px;
     margin: 0;
     padding: 3px;
-    border-radius: 50%;
-    border: 3px solid #8DB76B;
-    border-color: #FFD700;
-    box-shadow: 0 0 10px #fff, 0 0 20px #FFD700;
    
 }
 .sec_quién_es h2{
@@ -88,21 +84,22 @@
     line-height: 1.5;
     color : white;
 }
-.ballesta{
+/*Articulo de ballesta y motocicleta*/
+.ballesta_motocicleta{
     margin: 0;
     background: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
     width: 50%;
     margin: 20px auto;
     padding: 5px 5px;
 }
-.ballesta img{
+.ballesta_motocicleta img{
     width: 150px;
     height: 150px;
     margin: 0;
     padding: 3px;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 /*Contenedor principal*/
 .main{
@@ -114,11 +111,15 @@
     margin-top: 40px;
     padding: 20px;
 }
+/*Sección principal*/
 .sec_principal{
     display: flex;
     flex-wrap: wrap;
     width: 68%;
     
+}
+.div, .div2{
+    width: 45%;
 }
 aside{
     width: 30%;
