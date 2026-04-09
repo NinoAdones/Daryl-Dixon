@@ -4,6 +4,8 @@
    box-sizing: border-box;
    /* box-sizing hace que el padding no agrande los elementos */
 }
+
+
 /*Parte superior*/
 .header{
     background: rgba(0, 0, 0, 0.6);
@@ -29,6 +31,8 @@
     border-color: #FFD700;
     box-shadow: 0 0 10px #fff, 0 0 20px #FFD700;
 }
+
+
 /*¿Quién es?*/
 .div{
     margin: 0;
@@ -60,6 +64,8 @@
     line-height: 1.5;
     color : white;
 }
+
+
 /*Características*/
 .div2{
     margin: 0;
@@ -84,15 +90,35 @@
     line-height: 1.5;
     color : white;
 }
+
+
 /*Articulo de ballesta y motocicleta*/
-.ballesta_motocicleta{
-    margin: 0;
+.ballesta_motocicleta {
+    margin: 20px auto;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     text-align: center;
-    width: 50%;
-    margin: 20px auto;
-    padding: 5px 5px;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.ballesta {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.motocicleta {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
 .ballesta_motocicleta img{
     width: 150px;
@@ -101,6 +127,8 @@
     padding: 3px;
     border-radius: 5%;
 }
+
+
 /*Contenedor principal*/
 .main{
     display: flex;
@@ -111,6 +139,8 @@
     margin-top: 40px;
     padding: 20px;
 }
+
+
 /*Sección principal*/
 .sec_principal{
     display: flex;
@@ -118,18 +148,27 @@
     width: 68%;
     
 }
+
+
+/*Separador entre ¿Quién es? y Características*/
 .div, .div2{
     width: 45%;
 }
 aside{
     width: 30%;
 }
+
+
+/*Cuerpo*/
 body{
     background-image: url('img/fondodaryldixon.jpg');
     background-size: cover;
     background-position: center center;
     color: #D2B48C;
 }
+
+
+/*Para dispositivos móviles*/
 @media (max-width: 768px) {
     main {
         flex-direction: column;
@@ -152,4 +191,5 @@ body{
         width: 75px;
         height: 75px;
     }
+
 }
