@@ -92,13 +92,13 @@
 }
 
 
-/*Articulo de ballesta y motocicleta*/
-.ballesta_motocicleta {
+/*Articulo de ballesta, motocicleta*/
+.ballesta_motocicleta_rick {
     margin: 20px auto;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     padding: 10px;
     display: flex;
     gap: 10px;
@@ -120,9 +120,31 @@
     gap: 10px;
     padding: 10px;
 }
-.ballesta_motocicleta img{
+.ballesta img{
     width: 150px;
     height: 150px;
+    margin: 0;
+    padding: 3px;
+    border-radius: 5%;
+}
+.motocicleta img{
+    width: 210px;
+    height: 150px;
+    margin: 0;
+    padding: 3px;
+    border-radius: 5%;
+}
+.hermano_de_batalla{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.hermano_de_batalla img{
+    width: 300px;
+    height: 200px;
     margin: 0;
     padding: 3px;
     border-radius: 5%;
@@ -165,31 +187,4 @@ body{
     background-size: cover;
     background-position: center center;
     color: #D2B48C;
-}
-
-
-/*Para dispositivos móviles*/
-@media (max-width: 768px) {
-    main {
-        flex-direction: column;
-        padding: 10px;
-    }
-    .div, .div2 {
-        width: 95%;
-    }
-    .sec_quién_es p, .sec_características p {
-        width: 90%;
-        font-size: 14px;
-    }
-    .sec_quién_es h2, .sec_características h2 {
-        font-size: 26px;
-    }
-    .header h1 {
-        font-size: 32px;
-    }
-    .header img {
-        width: 75px;
-        height: 75px;
-    }
-
 }

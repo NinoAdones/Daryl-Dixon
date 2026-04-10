@@ -1,0 +1,25 @@
+/*Para dispositivos móviles*/
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .div, .div2 {
+        width: 95%;
+    }
+    .sec_quién_es p, .sec_características p {
+        width: 90%;
+        font-size: 14px;
+    }
+    .sec_quién_es h2, .sec_características h2 {
+        font-size: 26px;
+    }
+    .header h1 {
+        font-size: 32px;
+    }
+    .header img {
+        width: 75px;
+        height: 75px;
+    }
+
+}
