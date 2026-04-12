@@ -1,0 +1,141 @@
+/* ===== MÓVILES PEQUEÑOS (hasta 480px) ===== */
+@media (max-width: 480px) {
+    main {
+        flex-direction: column;
+        padding: 8px;
+    }
+    .div, .div2 {
+        width: 100%;
+    }
+    .sec_quién_es p, .sec_características p {
+        width: 95%;
+        font-size: 13px;
+    }
+    .sec_quién_es h2, .sec_características h2 {
+        font-size: 22px;
+    }
+    .header h1 {
+        font-size: 26px;
+    }
+    .header img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* ===== MÓVILES GRANDES (481px - 768px) ===== */
+@media (min-width: 481px) and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .div, .div2 {
+        width: 95%;
+    }
+    .sec_quién_es p, .sec_características p {
+        width: 90%;
+        font-size: 14px;
+    }
+    .sec_quién_es h2, .sec_características h2 {
+        font-size: 26px;
+    }
+    .header h1 {
+        font-size: 32px;
+    }
+    .header img {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+/* ===== TABLETS (769px - 1024px) ===== */
+@media (min-width: 769px) and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .div, .div2 {
+        width: 85%;
+    }
+    .sec_quién_es p, .sec_características p {
+        width: 85%;
+        font-size: 15px;
+    }
+    .sec_quién_es h2, .sec_características h2 {
+        font-size: 28px;
+    }
+    .header h1 {
+        font-size: 36px;
+    }
+    .header img {
+        width: 85px;
+        height: 85px;
+    }
+}
+
+/* ===== TABLETS GRANDES / LAPTOPS PEQUEÑAS (1025px - 1280px) ===== */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    main {
+        padding: 20px;
+    }
+    .div, .div2 {
+        width: 75%;
+    }
+    .sec_quién_es p, .sec_características p {
+        width: 80%;
+        font-size: 15px;
+    }
+    .sec_quién_es h2, .sec_características h2 {
+        font-size: 30px;
+    }
+    .header h1 {
+        font-size: 38px;
+    }
+    .header img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+/* ===== PANTALLAS GRANDES (1281px en adelante) ===== */
+@media (min-width: 1281px) {
+    main {
+        padding: 30px;
+    }
+    .div, .div2 {
+        width: 70%;
+    }
+    .sec_quién_es p, .sec_características p {
+        width: 75%;
+        font-size: 16px;
+    }
+    .sec_quién_es h2, .sec_características h2 {
+        font-size: 32px;
+    }
+    .header h1 {
+        font-size: 42px;
+    }
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* ===== ORIENTACIÓN HORIZONTAL EN MÓVILES ===== */
+@media (max-width: 768px) and (orientation: landscape) {
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .div, .div2 {
+        width: 48%;
+    }
+    .header h1 {
+        font-size: 24px;
+    }
+    .header img {
+        width: 55px;
+        height: 55px;
+    }
+}
