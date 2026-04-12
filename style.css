@@ -1,9 +1,10 @@
 * {
     margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
    /* box-sizing hace que el padding no agrande los elementos */
 }
+
 
 
 /*Parte superior*/
@@ -33,6 +34,7 @@
 }
 
 
+/*¿Quien es? y Características*/
 /*¿Quién es?*/
 .div{
     margin: 0;
@@ -64,8 +66,6 @@
     line-height: 1.5;
     color : white;
 }
-
-
 /*Características*/
 .div2{
     margin: 0;
@@ -90,29 +90,25 @@
     line-height: 1.5;
     color : white;
 }
+/*Separador entre ¿Quién es? y Características*/
+.div, .div2{
+    width: 45%;
+}
+
 
 
 /*Articulo de ballesta, motocicleta*/
-.ballesta_motocicleta_rick {
+.ballesta_motocicleta_rick_carol {
     margin: 20px auto;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     text-align: center;
-    width: 100%;
-    padding: 10px;
+    width: 120%;
+    padding: 5px;
     display: flex;
     gap: 10px;
 }
-
 .ballesta {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-}
-.motocicleta {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -126,6 +122,14 @@
     margin: 0;
     padding: 3px;
     border-radius: 5%;
+}
+.motocicleta {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
 .motocicleta img{
     width: 210px;
@@ -143,15 +147,70 @@
     padding: 10px;
 }
 .hermano_de_batalla img{
-    width: 300px;
-    height: 200px;
+    width: 210px;
+    height: 150px;
+    margin: 0;
+    padding: 3px;
+    border-radius: 5%;
+}
+.carol{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.carol img{
+    width: 210px;
+    height: 150px;
     margin: 0;
     padding: 3px;
     border-radius: 5%;
 }
 
 
-/*Contenedor principal*/
+/*Enlaces*/
+.enlaces {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding: 20px 15px;
+}
+.enlaces h2{
+    margin: 20px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #BDB76B;
+}
+.enlaces ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.enlaces li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*Seccion de enlaces*/
+aside {
+    width: 20%;
+    align-self: stretch;
+}
+
+
+/*Contenedor principal y sección principal*/
 .main{
     display: flex;
     justify-content: center;
@@ -161,24 +220,43 @@
     margin-top: 40px;
     padding: 20px;
 }
-
-
-/*Sección principal*/
 .sec_principal{
     display: flex;
     flex-wrap: wrap;
-    width: 68%;
+    width: 68%
     
 }
 
 
-/*Separador entre ¿Quién es? y Características*/
-.div, .div2{
-    width: 45%;
+
+.footer {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #BDB76B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
 }
-aside{
-    width: 30%;
+
+.footer_redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
 }
+
+.footer_redes img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+.footer span {
+    color: #FFD700;
+    font-weight: bold;
+}
+
 
 
 /*Cuerpo*/
